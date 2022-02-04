@@ -1,0 +1,104 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.navbar ul {
+  display: flex;
+  margin: 20px 0px;
+}
+.navbar li {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: medium;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+}
+.navbar ul li a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("7f2dd19c-fc74-488e-b157-6937216d56e9.jpg") no-repeat center
+    center/cover;
+  height: 500px;
+  width: 100%;
+  z-index: -1;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  right: 70%;
+}
+.heading {
+  font-style: century;
+  font-size: 2rem;
+  text-align: center;
+  margin: 40px 0px;
+}
+.btn {
+  padding: 10px;
+  border: 1px solid white;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 15px white 0 0 20px white 0 0 25px white;
+  font-weight: bold;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-color: black çççççççç;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+#pic {
+  display: flex;
+}
+#pic img {
+  width: 575px;
+  height: 400px;
+}
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  align-items: center;
+  padding: 20px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.gallery img {
+  width: 360px;
+  height: 240px;
+  margin: 10px;
+}
+/* section education */
+#Education {
+  background-color: beige;
+}
