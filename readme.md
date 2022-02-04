@@ -1,1 +1,1 @@
-Try to make website using HTML,CSS,Bootstrap,Javascript
+Try to make website using HTML,CSS
