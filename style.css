@@ -87,7 +87,7 @@
   flex-direction: column;
   box-sizing: border-box;
   box-shadow: blanchedalmond;
-  border-color: rgb(212, 17, 17) çççççççç;
+  border-color: rgb(212, 17, 17) ;
   padding: 20px;
   margin-bottom: 50px;
 }
@@ -218,7 +218,7 @@ flip-card-one-inner {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: rgb(255, 30, 161);
   color: rgb(101, 31, 194);
   transform: rotateY(180deg);
 }
@@ -239,15 +239,19 @@ figcaption {
 /* section education */
 #Education {
   background-color: beige;
+  display:flex;
+  flex-direction: row;
+
 }
 
+
 .table-education {
-  float: left;
+ 
   width: 50%;
   padding: 5px;
   width: 45%;
   height: 450px;
-  margin: 70px 30px 40px;
+  margin: 70px 30px 40px 70px;;
   background-color: beige;
 }
 tr:hover {
